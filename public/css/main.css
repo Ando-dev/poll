@@ -1,0 +1,85 @@
+.list-group-item.active, .list-group-item.active:focus,
+.list-group-item.active:hover {
+    color: #2571c1;
+    background-color: #f8f8f8;
+}
+.list-group-item {
+    border: 0;
+}
+
+.form-message .error{
+    color: #333;
+    background: #fffec2;
+    padding: 5px 10px;
+    margin: 20px 0;
+    margin-top: 0;
+    text-align: left;
+}
+
+form.sign{
+    margin: 100px auto;
+    max-width: 300px;
+}
+form.sign h1{
+    color: #383838;
+    font-size: 26px;
+}
+form.sign .input-group{
+    margin-bottom:  10px;
+}
+form.sign button{
+    margin-left:  10px;
+}
+
+
+form.user{
+}
+form.user .input-group{
+    margin-bottom:  10px;
+}
+
+.poll form .input-group{
+    margin: 0;
+}
+.poll form .input-group input{
+    border: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #eee;
+    padding: 9px 7px;
+    height: 40px;
+}
+.poll form .input-group .input-group-addon{
+    background-color: #fff;
+    border: 0;
+    border-bottom: 1px solid #eee;
+    border-radius: 0;
+}
+.poll form .input-group .input-group-addon button{
+    border: 0;
+    background: transparent;
+    color: #2795b7;
+}
+.poll form .input-group .input-group-addon a{
+    color: #737373;
+    margin-left: 5px;
+    font-size: 16px;
+}
+.poll ul{
+     padding: 0;
+}
+.poll ul li{
+    list-style: none;
+    padding: 0 20px 0 20px;
+}
+.poll > ul > li{
+    font-size: 18px;
+}
+.poll > ul{
+    margin-top: 20px;
+}
+.poll > ul > li > ul{
+    margin-bottom: 30px;
+}
+.poll > ul > li > ul > li{
+    font-size: 14px;
+}
