@@ -4,7 +4,5 @@ AddDefaultCharset UTF-8
 
 RewriteEngine On
 RewriteBase /
-RewriteCond %{HTTP_HOST} ^worknet.am$
-RewriteRule (.*) http://www.worknet.am/$1 [R=301,L] 
 RewriteRule ^public/(.*) public/$1 [L]
 RewriteRule ^(.*)$ index.php [L]
