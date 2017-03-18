@@ -33,7 +33,7 @@ if(!isset($poll["poll_id"]) || empty($poll["poll_id"])) exit;
     table.poll-item tr td{
         text-align: left;
         position: relative;
-        padding: 7px 15px;
+        padding: 7px 0;
     }
     table.poll-item tr td span{
         float:right;
